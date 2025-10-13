@@ -1,0 +1,12 @@
+{
+  "stations": [
+    {
+      "id": "900131508",
+      "name": "Friedrich-Engels-Str./Eichenstr.",
+      "walkingTime": 5
+    }
+  ],
+  "refreshInterval": 30,
+  "displayLines": [],
+  "testMode": false
+}

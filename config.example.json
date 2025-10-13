@@ -1,0 +1,22 @@
+{
+  "stations": [
+    {
+      "id": "900000100001",
+      "name": "S+U Alexanderplatz",
+      "walkingTime": 5,
+      "comment": "Hauptbahnhof - großer Knotenpunkt"
+    },
+    {
+      "id": "900000023201",
+      "name": "U Weinmeisterstr.",
+      "walkingTime": 3,
+      "comment": "U-Bahn Station"
+    }
+  ],
+  "displayLines": [],
+  "refreshInterval": 15,
+  "displayWidth": 800,
+  "displayHeight": 480,
+  "fullscreen": false,
+  "_comment": "displayLines: Leer = alle Linien anzeigen. Beispiel: ['M1', 'M8', 'S5', 'S7'] für bestimmte Linien"
+}
