@@ -22,12 +22,14 @@ def main():
     print("Drücke ESC oder Q zum Beenden")
     print()
     
+    config_path = './config/config.json'
+    
     # Erstelle Test-Konfiguration falls nötig
-    if not os.path.exists('config.json'):
+    if not os.path.exists(config_path):
         print("⚠️  Keine config.json gefunden. Bitte erstelle eine!")
         sys.exit(1)
     
-    monitor = AbfahrtMonitor('config.json')
+    monitor = AbfahrtMonitor(config_path=config_path)
     monitor.run()
 
 

@@ -188,7 +188,7 @@ class AbfahrtMonitor:
 
 def main():
     """Einstiegspunkt"""
-    config_path = sys.argv[1] if len(sys.argv) > 1 else 'config.json'
+    config_path = sys.argv[1] if len(sys.argv) > 1 else './config/config_example.json'
     
     monitor = AbfahrtMonitor(config_path)
     monitor.run()
